@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="48d1f8a937604b5984da426f835d8111" Name="Diagram1">
+        <EntityTypeShape EntityType="AnimalsModel.Animal" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Cage" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Color" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Food1" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Shop" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Species" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.SpeciesFood" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.sysdiagrams" Width="1.5" PointX="3.125" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="AnimalsModel.FK_Animal_Cage" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK_Animal_Color" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK_Animal_Shop" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK_Animal_Species" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK_Cage_Shop" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK_SpeciesFood_Food1" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK_SpeciesFood_Species" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
